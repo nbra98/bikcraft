@@ -1,0 +1,95 @@
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none ;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.header-bg {
+  background: #000000;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 1200px; /* 1200px ou 960px */
+}
+
+.header-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-ul a {
+  display: inline-block; /* ************************************************** */
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 16px 0;
+  position: relative;
+}
+
+.header-ul a::after {
+  content: "";
+  display: block;
+  background: #FFFFFF;
+  height: 2px;
+  width: 0px;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-ul a:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .header-ul {
+    gap: 20px;
+  }
+  .header-ul a {
+    background: #111111;
+    border-radius: 4px;
+    padding: 12px 16px;
+  }
+  .header-ul a:hover {
+    background: #2E2E2E;
+  }
+  .header a::after {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    justify-content: center;
+  }
+  .header-ul {
+    gap: 12px;
+  }
+  .header-ul a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
