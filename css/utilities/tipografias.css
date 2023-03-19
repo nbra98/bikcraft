@@ -1,0 +1,20 @@
+.texto-grande {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.texto-medio {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.texto-depoimento {
+  font-style: italic;
+}
+
+/* Fonte voltada para descrições */
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,6 +1,9 @@
 @import './global/global.css';
 @import './global/header.css';
+@import './global/footer.css';
 
 @import './home/introducao.css';
 
-@import './utilities/componentes.css';
+@import './utilities/botao-amarelo.css';
+@import './utilities/cores.css';
+@import './utilities/tipografias.css';
