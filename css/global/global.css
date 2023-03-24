@@ -14,7 +14,7 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3, p, ul {
+h1, h2, h3, h4, p, ul {
   margin: 0;
   padding: 0;
 }
@@ -24,12 +24,6 @@ img {
   max-width: 100%;
 }
 
-.global { 
-  box-sizing: border-box;
-  margin: 0 auto;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 1200px; /* 1200px ou 960px */
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
