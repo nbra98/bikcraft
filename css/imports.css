@@ -1,15 +1,19 @@
 @import './bicicletas/bicicletas-lista.css';
 
-@import './global/global.css';
+@import './global/container.css';
+@import './global/formatacoes.css';
 @import './global/header.css';
 @import './global/footer.css';
 
 @import './home/introducao.css';
 @import './home/tecnologia.css';
 @import './home/parceiros.css';
+@import './home/depoimento.css';
+
+@import './seguros/seguros.css';
 
 @import './utilities/botao-amarelo.css';
+@import './utilities/botao-cinza.css';
 @import './utilities/botao-link.css';
 @import './utilities/cores.css';
-@import './utilities/container.css';
 @import './utilities/tipografias.css';

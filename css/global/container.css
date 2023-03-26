@@ -1,4 +1,4 @@
-.container-1200 {
+.container-padrao {
   box-sizing: border-box;
   padding-left: 20px;
   padding-right: 20px;
@@ -7,7 +7,7 @@
   max-width: 1200px;
 }
 
-.container-1400 {
+.container-vazando {
   box-sizing: border-box;
   padding-left: 20px;
   padding-right: 20px;
