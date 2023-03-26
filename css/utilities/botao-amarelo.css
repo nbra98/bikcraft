@@ -14,6 +14,25 @@
   background: linear-gradient(180deg, var(--cor-lg3), var(--cor-lg4));
 }
 
+.botao-amarelo.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao-amarelo.seta::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../../img/icones/seta.svg);
+  height: 10px;
+  width: 18px;
+  margin-left: 12px;
+  transition: transform .2s;
+}
+
+.botao-amarelo.seta:hover::after {
+  transform: translateX(4px);
+}
+
 @media (max-width: 600px) {
   .botao-amarelo {
     font-size: 1rem;
