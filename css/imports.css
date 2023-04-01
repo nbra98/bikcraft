@@ -4,6 +4,9 @@
 @import './bicicletas/bicicletas.css';
 @import './bicicletas/bicicletas-lista.css';
 
+@import './contato/contato.css';
+@import './contato/lojas.css';
+
 @import './global/container.css';
 @import './global/formatacoes.css';
 @import './global/header.css';
@@ -24,5 +27,6 @@
 @import './utilities/botao-cinza.css';
 @import './utilities/botao-link.css';
 @import './utilities/cores.css';
+@import './utilities/formulario.css';
 @import './utilities/titulo-bg.css';
 @import './utilities/tipografias.css';
