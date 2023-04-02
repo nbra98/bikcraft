@@ -79,10 +79,13 @@
 }
 
 .font-1-xxl {
-  font-family: "Poppins", sans-serif;
+  /* Shorthand: */
+  font: 600 4rem/1.125 "Poppins", sans-serif;
+
+  /* font-family: "Poppins", sans-serif;
   font-size: 4rem;
   font-weight: 600;
-  line-height: 1.125;
+  line-height: 1.125; */
 }
 
 .texto-depoimento {

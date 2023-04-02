@@ -8,6 +8,10 @@ h1, h2, h3, h4, p, ul, blockquote, dd {
   padding: 0;
 }
 
+address {
+  font-style: normal;
+}
+
 ul {
   list-style: none;
 }

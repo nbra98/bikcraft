@@ -2,6 +2,8 @@
   display: inline-block;
   background: linear-gradient(180deg, var(--cor-lg1), var(--cor-lg2));
   color: var(--cor-p5);
+  border: none;
+  cursor: pointer;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
