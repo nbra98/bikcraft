@@ -17,6 +17,8 @@
 @import './home/parceiros.css';
 @import './home/depoimento.css';
 
+@import './orcamento/orcamento.css';
+
 @import './seguros/perguntas.css';
 @import './seguros/seguros.css';
 @import './seguros/vantagens.css';
