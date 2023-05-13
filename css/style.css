@@ -25,6 +25,7 @@
 
 @import './termos/termos.css';
 
+@import './utilities/animacao.css';
 @import './utilities/botao-amarelo.css';
 @import './utilities/botao-cinza.css';
 @import './utilities/botao-link.css';
@@ -32,3 +33,5 @@
 @import './utilities/formulario.css';
 @import './utilities/titulo-bg.css';
 @import './utilities/tipografias.css';
+
+/* file:///C:/Users/Luis%20Fernando/Documents/Fernando/Desenvolvimento%20Web/Origamid/HTML%20e%20CSS/Projetos/Projeto%2003%20(1001)%20Final/style.css */

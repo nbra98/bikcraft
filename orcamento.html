@@ -5,12 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orçamento | Bikcraft</title>
-  <link rel="preload" href="style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <meta name="description" content="Termos de Uso e Condições Bikcraft">
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="orcamento">
@@ -75,8 +78,8 @@
             <img src="./img/bicicletas/magic.jpg" width="1120" height="680" alt="Bicicleta Nimbus Stark">
           </div>
 
-          <input type="radio" name="produto" id="Nebula Cosmic" value="Nebula Cosmic">
-          <label for="Nebula Cosmic">Nebula Cosmic <span>R$ 3.999</span></label>
+          <input type="radio" name="produto" id="nebula-cosmic" value="nebula-cosmic">
+          <label for="nebula-cosmic">Nebula Cosmic <span>R$ 3.999</span></label>
           <div class="orcamento-detalhes">
             <ul class="font-1-xs cor-8">
               <li><img src="./img/icones/eletrica.svg" width="32" height="32" alt=""> Motor Elétrico</li>
@@ -156,8 +159,8 @@
           <label for="estado">Estado</label>
           <input type="text" id="estado" name="estado" placeholder="">
         </div>
-        <button class="botao-amarelo column-span-2">Solicitar Orçamento</button>
-      </div>    
+        <button type="submit" class="botao-amarelo column-span-2">Solicitar Orçamento</button>
+      </div>
     </form>
   </main>
 
@@ -194,5 +197,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </article>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>

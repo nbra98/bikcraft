@@ -19,7 +19,7 @@
 }
 
 .header-menu a {
-  display: inline-block; /* ************************************************** */
+  display: inline-block;
   padding: 16px 0;
 
   position: relative;
@@ -37,7 +37,8 @@
   position: absolute;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover:after,
+.js .header-menu a.ativo::after {
   width: 100%;
 }
 
