@@ -94,3 +94,15 @@ if (window.SimpleAnime) {
 // }
 
 //---------------------------------//
+
+// Janela de Confirmação - Envio de E-mails **********
+
+// const alerta = document.querySelector('.teste-botao');
+
+// function alertaEnvio() {
+//   window.alert('E-mail enviado com sucesso! Em breve retornaremos contato.');
+// }
+
+// alerta.addEventListener('click', alertaEnvio);
+
+//---------------------------------//
